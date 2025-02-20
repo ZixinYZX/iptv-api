@@ -4,11 +4,11 @@ config_path = "config"
 
 output_path = "output"
 
-whitelist_path = os.path.join(config_path, "whitelist.txt")
+whitelist_path = os.path.join(config_path, "user_whitelist.txt")
 
-blacklist_path = os.path.join(config_path, "blacklist.txt")
+blacklist_path = os.path.join(config_path, "user_blacklist.txt")
 
-subscribe_path = os.path.join(config_path, "subscribe.txt")
+subscribe_path = os.path.join(config_path, "user_subscribe.txt")
 
 result_path = os.path.join(output_path, "result_new.txt")
 
